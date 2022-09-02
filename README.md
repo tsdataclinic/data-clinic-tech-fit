@@ -112,7 +112,7 @@ jupyter lab --ip 0.0.0.0 --allow-root --NotebookApp.notebook_dir=/technical_test
 
 Copy and paste the https path from the terminal into your web browser. I am confident that this works for Chrome. This link will take you to a Jupyter Lab environment whose kernel is backed by your local docker container. Note that closing the terminal will end your Jupyter Lab session
 
-There are two example notebooks in the `./notebooks directory`: Data Visualization and Geospatial Analysis
+There is an example notebook in the `./notebooks directory` called `data_visualization`.
 
 Practice running the notebook cells. And feel free to play around with them! This is a space designed for you to explore.
 
