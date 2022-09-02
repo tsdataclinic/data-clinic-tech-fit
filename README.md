@@ -1,6 +1,7 @@
 ![Data Clinic Logo](site-logo.png)
 
-# data-clinic-tech-fit
+# Data Clinic Technical Fit Assessment
+
 Technical design and tooling repo used to expose project partners to open source tooling, python libraries, and simple programs requiring command line execution.
 
 
@@ -12,6 +13,7 @@ Early exposure to the design components that support our analytics solution help
 
 If something feels super not so great (and we aren't able to address that not so great feeling) there are avenues to explore. We can make different design choices from the get-go, spend some time through-out the project upskilling, or guide you towards free or low-cost learning materials. Or perhaps this experience stimulates conversations within your team on different platforms to explore going forward (Tableau? Google Cloud? Azure?).
 
+### What must I do?
 
 To complete the exercise, follow the steps below. We recommend that you actively document your process and you go along.
 
