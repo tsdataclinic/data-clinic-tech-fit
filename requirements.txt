@@ -1,0 +1,14 @@
+pandas
+numpy
+pathlib
+geopandas
+argparse
+requests
+ipykernel
+ipython
+jupyter-client
+jupyter-core
+jupyterlab
+jupyterlab-server
+matplotlib
+seaborn
