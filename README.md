@@ -66,10 +66,10 @@ We aren't going to ask you to set-up a python-friendly development environment o
 Open Visual Studio Code and clone this repository.
 
 ```
-docker build -t technical-test-conda-2
+docker build -t data-clinic-technical-assessment .
 ```
 ```
-docker run -it -p 8000:80 -p 8888:8888 -v $(pwd):/technical_test technical-test-conda-2 bash
+docker run -it -p 8000:80 -p 8888:8888 -v $(pwd):/technical_test data-clinic-technical-assessment bash
 ```
 
 ### Generate data files via command line
@@ -126,6 +126,8 @@ Copy and paste the https path from the terminal into your web browser. I am conf
 There is an example notebook in the `./notebooks directory` called `data_visualization`.
 
 Practice running the notebook cells. And feel free to play around with them! This is a space designed for you to explore.
+
+To end your jupyter session, run `ctrl+c` in terminal.
 
 ### References [for Jen as she develops...]
 

@@ -1,1 +1,3 @@
-WORD_FOR_PRINT = "JELLY BEANS"
+WORD_FOR_PRINT = "AUTUMN"
+
+ROOT_DIR = "/technical_test"
