@@ -1,9 +1,11 @@
-# data-clinic-tech-fit
+![Data Clinic Logo](site-logo.png)
+
+# Data Clinic Technical Fit Assessment
+
 Technical design and tooling repo used to expose project partners to open source tooling, python libraries, and simple programs requiring command line execution.
 
 
 ## How do we assess fit?
-
 
 The purpose of this exercise is to start a conversation around your comfort using common tools and technologies the Data Clinic might employ when working outside of a prescribed ecosystem. For example, docker, python-based modules, jupyter notebook, and command line execution. 
 
@@ -11,6 +13,7 @@ Early exposure to the design components that support our analytics solution help
 
 If something feels super not so great (and we aren't able to address that not so great feeling) there are avenues to explore. We can make different design choices from the get-go, spend some time through-out the project upskilling, or guide you towards free or low-cost learning materials. Or perhaps this experience stimulates conversations within your team on different platforms to explore going forward (Tableau? Google Cloud? Azure?).
 
+### What must I do?
 
 To complete the exercise, follow the steps below. We recommend that you actively document your process and you go along.
 
@@ -29,6 +32,8 @@ Some thoughts to keep in mind as you journal:
 
 ### Get your code editor ready
 
+![VSC Logo](vsc-logo.png)
+
 We recommend that you adopt a code editor to avoid working solely in terminal. For the sake of this exercise, download the free version of [Visual Studio Code](https://code.visualstudio.com/). Note that there are other open source, free editors out there to chose from!
 
 ### You're going to work with Github
@@ -44,6 +49,8 @@ Extra Credit
 1. [Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 ### Get your Docker daemon ready
+
+![Docker Logo](docker-logo.png)
 
 We aren't going to ask you to set-up a python-friendly development environment on your local machine. Instead, we'll guide you through a containerized solution.
  
@@ -103,6 +110,9 @@ Feel free to explore census data by trying different table/geography combination
 Open the config.py file located under the `./src` directory. Modify the string variable specified after `WORD_FOR_PRINT =` and save the file. Run the command `make run_data` again and see if the printed statement changes.
 
 ### Create Geospatial Visualizations in Jupyter Notebooks
+
+![Jupyter Lab Logo](jupyter-lab-logo.png)
+
 
 Once you've launched your local container and you're in the bash terminal, execute:
 
