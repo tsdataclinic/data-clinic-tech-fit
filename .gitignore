@@ -1,3 +1,8 @@
+# Census data stuff:
+
+data/processed/NECTA/
+data/interim/NECTA/
+data/raw/NECTA/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
