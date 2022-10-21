@@ -2,20 +2,21 @@
 
 # Data Clinic Technical Fit Assessment
 
-Technical design and tooling repo used to expose project partners to open source tooling, python libraries, and simple programs requiring command line execution.
+Public repository that exposes project partners and collaborators to open source tooling, python libraries, and simple programs requiring command line execution.
 
 
 ## How do we assess fit?
 
-The purpose of this exercise is to start a conversation around your comfort using common tools and technologies the Data Clinic might employ when working outside of a prescribed ecosystem. For example, docker, python-based modules, jupyter notebook, and command line execution. 
+Working through the steps laid out in this README helps us jumpstart a conversation around your comfort using open source tools and technologies that the Data Clinic could use during the partnership. For example, docker, python-based modules, jupyter notebook, and command line execution. 
 
-Early exposure to the design components that support our analytics solution helps project partners know what they'll be using to do their work.
 
-If something feels super not so great (and we aren't able to address that not so great feeling) there are avenues to explore. We can make different design choices from the get-go, spend some time through-out the project upskilling, or guide you towards free or low-cost learning materials. Or perhaps this experience stimulates conversations within your team on different platforms to explore going forward (Tableau? Google Cloud? Azure?).
+When our partners don't have a prescribed ecosystem (i.e. tech stack) it's important that we design a solution that you can truly own after handover. Early exposure to the design components that support our analytics and applications helps project partners know what they'll be using to do their work.
 
-### What must I do?
+Early shared understanding of what we need to do (re: design) and what y'all need to do (re: upskilling) gives us all much more room to maneauver. For example, we can make different design choices from the get-go, spend some time through-out the project upskilling, or guide you towards free or low-cost learning materials. Or perhaps this experience stimulates conversations within your team on different platforms to explore going forward (Tableau? Google Cloud? Azure?).
 
-To complete the exercise, follow the steps below. We recommend that you actively document your process and you go along.
+### What must you do?
+
+To complete the exercise, follow the steps below. We recommend that you actively document your process and as you go along.
 
 Some thoughts to keep in mind as you journal:
 
@@ -23,7 +24,7 @@ Some thoughts to keep in mind as you journal:
 
 - What did you learn? Was anything you were asked to do that surprised you?
 
-- Think about your current processes - imagine where this new tool will fold into that process. Describe it.
+- Think about your current processes - imagine where this new tool will fold into that process. Describe that too.
 
 
 # Steps
