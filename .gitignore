@@ -2,7 +2,10 @@
 
 data/processed/NECTA/
 data/interim/NECTA/
+data/interim/tract/
 data/raw/NECTA/
+data/custom/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

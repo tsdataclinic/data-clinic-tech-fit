@@ -3,6 +3,7 @@ RUN apt-get -y update
 RUN apt-get install -y git 
 RUN apt-get install -y wget 
 RUN apt-get -y install make
+RUN apt install libspatialindex-dev
 
 RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 RUN bash Miniconda3-latest-Linux-x86_64.sh -b -p /miniconda
