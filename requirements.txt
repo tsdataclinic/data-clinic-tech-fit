@@ -12,3 +12,4 @@ jupyterlab
 jupyterlab-server
 matplotlib
 seaborn
+plotly==5.10.0
