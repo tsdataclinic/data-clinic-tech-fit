@@ -4,6 +4,7 @@ data/processed/NECTA/
 data/interim/NECTA/
 data/interim/tract/
 data/raw/NECTA/
+data/raw/tract/
 data/custom/
 
 # Byte-compiled / optimized / DLL files
