@@ -90,6 +90,10 @@ brew install colima
 Open Visual Studio Code and clone this repository.
 
 ```
+colima start --cpu=4 --disk=100 --memory=6 --dns=1.1.1.1
+```
+
+```
 docker build -t data-clinic-technical-assessment .
 ```
 ```
