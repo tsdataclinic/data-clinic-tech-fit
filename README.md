@@ -37,14 +37,28 @@ Some thoughts to keep in mind as you journal:
 
 We recommend that you adopt a code editor to avoid working solely in terminal. For the sake of this exercise, download the free version of [Visual Studio Code](https://code.visualstudio.com/). Note that there are other open source, free editors out there to chose from!
 
-### You're going to work with Github
+### Get your package manager ready
+
+We'll be using [Homebrew](https://brew.sh/)
+
+1. Open a terminal. [How to open a terminal on MAC](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/)
+2. Paste this into the terminal. This will run an installation script, which will pause and offer explanation throughout the process and will periodically ask for your permission to continue on.
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### Set-up Github
 
 Git is a distributed version control system. Every change made to code is tracked in the repository. Also, the entire codebase and history is available on every developer/user's computer, which allows for easy branching and merging and executing. [More info on Github](https://www.simplilearn.com/tutorials/git-tutorial/what-is-github)
 
 Must Dos
 1. [Create a Github account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
-2. [Configure Github for your local environment](https://docs.github.com/en/get-started/quickstart/set-up-git)
-3. [Clone the existing repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+2. Use brew to install git command line package. Paste this into the terminal. This tutorial video provides additional guidance on set-up (if needed) [How to Install Git on Mac OS](https://www.youtube.com/watch?v=UTon_5ouqTM)
+```
+brew install git
+```
+3. [Configure Github for your local environment](https://docs.github.com/en/get-started/quickstart/set-up-git)
+4. [Clone the existing repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
 Extra Credit
 1. [Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
@@ -57,13 +71,27 @@ We aren't going to ask you to set-up a python-friendly development environment o
  
 "Docker is a tool for creating and deploying isolated environments for running applications with their dependencies. Basically, Docker makes it easy to write and run codes smoothly on other machines with different operating systems by putting together the code and all its dependencies in a container. This container makes the code self-contained and independent from the operating system." [Source Article](https://medium.com/analytics-vidhya/docker-for-data-science-442299c5203c)
 
-1. [Download Docker Destop](https://www.docker.com/products/docker-desktop/)
+
+1. Install Docker using Brew
+
+```
+brew install docker
+```
+
+2. Install Colima. Colima is an open source project that let's us work with docker containers without needed to work through the [Docker Desktop](https://www.docker.com/products/docker-desktop/). 
+```
+brew install colima
+```
 
 ## 2. Interact with tools and libraries via command line execution
 
 ### Build and run the docker container
 
 Open Visual Studio Code and clone this repository.
+
+```
+colima start --cpu=4 --disk=100 --memory=6 --dns=1.1.1.1
+```
 
 ```
 docker build -t data-clinic-technical-assessment .
